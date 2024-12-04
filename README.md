@@ -34,8 +34,27 @@ pip3 install -r requirements.txt
 ###Lancement temporaire
 python3 -m streamlit run app.py
 ```
+
 ```
 ### Lancement permanent
 nohup python3 -m streamlit run app.py
 ```
+
+#### Si vous avez du mal avec streamlit?
+```
+# Installer le package venv si ce n'est pas encore fait
+sudo apt install python3-venv
+
+# Créer un environnement virtuel
+python3 -m venv myenv
+
+# Activer l'environnement virtuel
+source myenv/bin/activate
+
+# Installer les packages avec pip
+pip install streamlit
+
+#deactivate
+deactivate
+
 ```
