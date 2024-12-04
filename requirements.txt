@@ -1,2 +1,6 @@
 ##Dependency
-streamlit
+streamlit as st
+import pandas as pd
+from sklearn import datasets
+from sklearn.ensemble import RandomForestClassifier
+# si necessaire :pip3 install scikit-learn
